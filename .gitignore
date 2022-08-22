@@ -1,0 +1,6 @@
+# keys and play data
+*player*.json
+c3cpi.json
+
+# local test validators
+test-ledger*

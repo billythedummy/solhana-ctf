@@ -1,0 +1,57 @@
+{
+  "version": "0.1.0",
+  "name": "cpic3",
+  "instructions": [
+    {
+      "name": "cpiRepay",
+      "accounts": [
+        {
+          "name": "player",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "user",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "state",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "pool",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "poolAccount",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "depositorAccount",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "tokenProgram",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "challenge3Program",
+          "isMut": false,
+          "isSigner": false
+        }
+      ],
+      "args": [
+        {
+          "name": "amount",
+          "type": "u64"
+        }
+      ]
+    }
+  ]
+}
